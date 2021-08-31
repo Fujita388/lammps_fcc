@@ -1,0 +1,7 @@
+read_restart test.restart.20000
+
+dump id all atom 100 restart.lammpstrj
+
+thermo 500
+fix 1 all nvt temp 0.7 0.7 0.1
+run 20000

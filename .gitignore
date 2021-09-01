@@ -1,0 +1,4 @@
+log.lammps
+*.lammpstrj
+memo.txt
+test.restart.20000
